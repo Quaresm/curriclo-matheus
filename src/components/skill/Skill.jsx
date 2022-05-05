@@ -3,7 +3,7 @@ import './skill.css'
 
 const Skill = () => {
   return (
-    <div>Skill</div>
+    <section id='#skill'>Skill</section>
   )
 }
 

@@ -1,0 +1,16 @@
+.nav_container {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+nav {
+    background-color: rgba(0,0,0,0.3);
+    width: max-content;
+    display: flex;
+    padding: 0.7rem 1.7rem;
+    align-content: center;
+    gap: 1rem;
+    border-radius: 3rem;
+}

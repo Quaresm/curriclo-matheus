@@ -34,6 +34,8 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
+  height: 100vh;
+  width: 100vw;
 }
 
 /*====================== Generic Style ====================== */
@@ -53,6 +55,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -109,7 +112,7 @@ img{
 /*====================== Medium Style ====================== */
 
 
-@media screen and(max-width: 1024px){
+@media screen and (max-width: 1024px){
   .container{
     width: var(--container-width-md);
   }
@@ -122,7 +125,7 @@ img{
 /*====================== Small Style ====================== */
 
 
-@media screen and(max-width: 1024px){
+@media screen and (max-width: 1024px){
   .container{
     width: var(--container-width-sm);
   }
