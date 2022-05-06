@@ -11,7 +11,7 @@ import Contact from './components/contact/Contact';
 
 const App = () => {
   return (
-    <>
+    <div className='global-container'>
       <Header />
       <Navbar />
       <About />
@@ -20,7 +20,7 @@ const App = () => {
       <Experience />
       <Contact />
       <Footer />
-    </>
+    </div>
     )
 }
 
