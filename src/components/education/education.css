@@ -1,0 +1,8 @@
+.experience__container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: red;
+    width: 100%;
+}

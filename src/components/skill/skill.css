@@ -1,0 +1,35 @@
+.skills__container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.skills__container > div{
+    background: linear-gradient(var(--color-bg-variant), transparent);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+}
+
+.skills__frontend{
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    width: 50%;
+}
+.skills__backend{
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    width: 50%;
+}
+.skills__content{
+    flex-direction: column;
+    padding-left: 30px;
+    margin-top: 10px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    column-gap: 60px;
+
+}
