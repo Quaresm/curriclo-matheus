@@ -24,7 +24,6 @@
 }
 .skills__content{
     flex-direction: column;
-    padding-left: 30px;
     margin-top: 10px;
     width: 50%;
     display: grid;
