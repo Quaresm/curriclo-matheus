@@ -1,0 +1,41 @@
+.nav_container {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+nav {
+    background-color: rgba(0,0,0,0.3);
+    width: 280px;
+    height: 52px;
+    display: flex;
+    padding: 0.7rem 1.7rem;
+    gap: 1rem;
+    border-radius: 3rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+}
+
+.button-icon{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    transition: font-size .2s;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+}
+
+.button-icon:hover {
+    color: var(--color-primary);
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.active{
+    color: var(--color-primary);
+    font-size: 29px;
+}

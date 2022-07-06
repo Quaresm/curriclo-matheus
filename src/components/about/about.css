@@ -1,0 +1,136 @@
+.about__section{
+    margin-top: 40px;
+}
+
+.container__all{
+    display: flex;
+    padding: 0 100px 0 100px;
+}
+
+.about__container{
+    min-width: 350px;
+    margin: 0 40px;
+    display: flex;
+}
+
+.about__me{
+
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg, 
+        transparent, 
+        var(--color-primary), 
+        transparent);
+    display: flex;
+    place-items: center;
+}
+
+.about__me-img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(4deg);
+    transition: var(--transition);
+}
+
+.about__me-img:hover {
+    transform: rotate(0);
+}
+
+.about__cards {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 0 50px;
+    gap: 20px;
+}
+
+.about__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-varient);
+}
+
+.about__card h5{
+    font-size: 20px;
+}
+
+.about__card small{
+    font-size: 16px;
+    color:var(--color-light)
+}
+
+.about__content p {
+    margin-top: 60px;
+    text-align: justify;
+    color: var(--color-light);
+}
+
+.about__content a {
+    margin: 27px 0 0 200px;
+}
+
+.about__icon {
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .container__all{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 25px;
+    }
+
+    .about__container{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about__me{
+        width: 50%;
+        height: 50%;
+    }
+
+    .about__content{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .about__content p{
+        margin-top: 20px;
+    }
+
+    .about__content a{
+        margin: 27px 0 0 50px;
+    }
+
+    .about__card{
+        display: flex;
+        flex-direction: column;
+        height: 160px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+
+    .scroll_down{
+        display: none;
+    }
+}

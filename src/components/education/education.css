@@ -1,0 +1,135 @@
+.education__section{
+    margin-top: 40px;
+}
+
+.container__education__all{
+    display: flex;
+    padding: 0 100px 0 100px;
+}
+.education__container{
+    min-width: 350px;
+    margin: 0 40px;
+    display: flex;
+}
+
+.education__me{
+
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg, 
+        transparent, 
+        var(--color-primary), 
+        transparent);
+    display: flex;
+    place-items: center;
+}
+
+.education__me-img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(4deg);
+    transition: var(--transition);
+}
+
+.education__me-img:hover {
+    transform: rotate(0);
+}
+
+.education__cards {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 0 50px;
+    gap: 20px;
+}
+
+.education__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.education__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-varient);
+}
+
+.education__card h5{
+    font-size: 20px;
+}
+
+.education__card small{
+    font-size: 16px;
+    color:var(--color-light)
+}
+
+.education__content p {
+    margin-top: 60px;
+    text-align: justify;
+    color: var(--color-light);
+}
+
+.education__content a {
+    margin: 27px 0 0 200px;
+}
+
+.education__icon {
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .container__education_all{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 25px;
+    }
+
+    .education__container{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .education__me{
+        width: 50%;
+        height: 50%;
+    }
+
+    .education__content{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .education__content p{
+        margin-top: 20px;
+    }
+
+    .education__content a{
+        margin: 27px 0 0 50px;
+    }
+
+    .education__card{
+        display: flex;
+        flex-direction: column;
+        height: 160px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+
+    .scroll_down{
+        display: none;
+    }
+}
