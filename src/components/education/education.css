@@ -1,5 +1,5 @@
 .education__section{
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 .container__education__all{
@@ -13,19 +13,25 @@
 }
 
 .education__me{
-
-    border-radius: 2rem;
+    border-radius: 5rem;
+    margin-top: 50px;
     background: linear-gradient(
         45deg, 
         transparent, 
-        var(--color-primary), 
+        var(--color-primary-light), 
         transparent);
     display: flex;
     place-items: center;
 }
 
+.education__text__me{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
 .education__me-img {
-    border-radius: 2rem;
+    border-radius: 5rem;
     overflow: hidden;
     transform: rotate(4deg);
     transition: var(--transition);
@@ -86,7 +92,6 @@
     .container__education_all{
         flex-direction: column;
         align-items: center;
-        padding: 0;
         gap: 25px;
     }
 

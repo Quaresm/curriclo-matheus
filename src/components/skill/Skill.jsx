@@ -1,12 +1,11 @@
-import React from 'react'
-import './skill.css'
+import React from "react";
+import "./skill.css";
 import { BsCheckCircleFill } from "react-icons/bs";
 
 const Skill = () => {
   return (
-    <section id='skill'>
-      <h2> Minhas habilidades </h2>
-
+    <section id="skill">
+      <h2 className="skills__section"> Minhas habilidades </h2>
       <div className="container skills__container">
         <div className="skills__frontend">
           <h3>Frontend Development</h3>
@@ -87,7 +86,7 @@ const Skill = () => {
         {/* END OF BACKEND */}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Skill
+export default Skill;
