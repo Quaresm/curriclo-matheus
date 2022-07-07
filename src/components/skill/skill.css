@@ -1,3 +1,7 @@
+.skills__section{
+    padding-top: 50px;
+}
+
 .skills__container {
     display: flex;
     flex-direction: row;

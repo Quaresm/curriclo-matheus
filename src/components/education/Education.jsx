@@ -1,7 +1,7 @@
 import React from "react";
 import "./education.css";
 import { BsJournalBookmark } from "react-icons/bs";
-import Book from "../../assets/book.png";
+import ME from "../../assets/foto-1.png";
 
 const Education = () => {
   return (
@@ -26,8 +26,14 @@ const Education = () => {
           <div className="container education__container">
             <div className="education__me">
               <div className="education__me-img">
-                <img src={Book} alt="Education image" />
+                <img src={ME} alt="About Image" />
               </div>
+            </div>
+            <div className="education__text__me">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
             </div>
           </div>
 
